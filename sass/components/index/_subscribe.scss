@@ -1,0 +1,73 @@
+/* =======******====== subscribe css start ======******====== */
+
+#subscribe_part {
+    margin-bottom: 50px;
+    
+    .sub_item {
+        padding: 30px 30px;
+        background: #F67280;
+        
+        .sub_left {
+            position: relative;
+            
+            .left_text {
+                position: absolute;
+                left: 64px;
+                top: 1px;
+                
+                h4{
+                    color: #f1f1f1;
+                    font-size: 18px;
+                    font-weight: 500;
+                    font-family: 'Poppins', sans-serif;
+                }
+                
+                p{
+                    color: #f1f1f1;
+                    font-size: 15px;
+                    font-weight: 500;
+                    font-family: 'Poppins', sans-serif;
+                }
+                
+            }
+            
+            .left_icon {
+                i {
+                    color: #f1f1f1;
+                    font-size: 44px;
+                }
+            }
+        }
+        
+        .right_part{
+            position: relative;
+            form{
+                
+                input{
+                    height: 43px;
+                }
+            }
+            
+            a{
+                position: absolute;
+                right: -25px;
+                top: 1px;
+                padding: 8px 25px;
+                border: 1px solid #333;
+                background: #333;
+                color: #f1f1f1;
+                font-size: 15px;
+                font-weight: 400;
+                font-family: 'Poppins', sans-serif;
+                transition: all linear .3s;
+                
+                &:hover{
+                    background: #666;
+                    border-color: #666;
+                }
+            }
+        }
+    }
+}
+
+/* =======******====== subscribe css start ======******====== */

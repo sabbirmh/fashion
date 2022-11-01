@@ -1,0 +1,212 @@
+/* =======******====== Mega menu css start ======******====== */
+
+#mega_menu{
+
+    .container {
+        .banner_left_mega_menu {
+            position: relative;
+
+            padding: 18px 0;
+            background: #f1f1f1;
+
+            >a {
+                position: relative;
+                margin-left: 15px;
+                display: block;
+                color: #040406;
+                font-size: 13px;
+                font-weight: 600;
+                font-family: 'Playfair Display', serif;
+                transition: all linear .3s;
+                
+
+
+                i.fa-chevron-down {
+                    position: absolute;
+                    right: 10px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    font-size: 10PX;
+
+                }
+
+                i.fa-list {
+                    margin-right: 10px;
+                }
+            }
+
+            .mega_menu {
+                padding: 18px 0;
+                position: absolute;
+                left: 0;
+                top: 100%;
+                width: 100%;
+                z-index: 99;
+                background: #fff;
+                box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.1);
+
+                >ul {
+                    margin-left: 10px;
+
+                    >li {
+                        position: relative;
+
+                        >a {
+                            position: relative;
+                            display: block;
+                            padding: 10px 10px;
+                            border-bottom: 1px solid #f1f1f1;
+                            color: #333;
+                            font-size: 14px;
+                            font-weight: 400;
+                            transition: all linear .3s;
+                            &:hover{
+                                color: #F67280;
+                            }
+
+                            i.fa-chevron-right {
+                                position: absolute;
+                                right: 20px;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                font-size: 10PX;
+                                transition: all linear .3s;
+
+
+                            }
+
+                            &:hover {
+                                i.fa-chevron-right {
+                                    padding-right: 5px;
+                                }
+                            }
+
+                        }
+
+                        .last {
+                            border-bottom: none;
+                        }
+
+
+                        .fashion_drop {
+                            width: 330px;
+                            height: 270px;
+                            position: absolute;
+                            left: 96%;
+                            top: 0;
+                            background: white;
+                            padding-left: 15px;
+                            visibility: hidden;
+                            opacity: 0;
+                            z-index: 99;
+                            box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.1);
+                            transition: all linear .3s;
+
+                            h4 {
+                                color: #040406;
+                                font-size: 16px;
+                                font-weight: 600;
+                                font-family: 'Playfair Display', serif;
+                                margin-top: 15px;
+                                position: relative;
+
+                                &::after{
+                                    position: absolute;
+                                    content: '';
+                                    left: 0;
+                                    bottom: -5px;
+                                    height: 1px;
+                                    width: 100px;
+                                    background: #F67280;
+                                }
+                            }
+
+                            ul {
+                                li {
+                                    a {
+                                        color: #888;
+                                        font-size: 13px;
+                                        font-weight: 400;
+                                        font-family: 'Playfair Display', serif;
+                                        margin-top: 10px;
+                                        transition: all linear .3s;
+
+                                        &:hover{
+                                            color: #F67280;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &:hover{
+                            .fashion_drop{
+                                visibility: visible;
+                                opacity: 1;
+                                transform: translateX(10px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .social {
+            position: relative;
+            &:after{
+                position: absolute;
+                content: '';
+                right: 0;
+                top: 0;
+                height: 26px;
+                width: 1px;
+                background-color: #f1f1f1;
+            }
+            ul {
+                display: flex;
+                justify-content: center;
+    
+                li {
+                    margin: 0 20px;
+    
+                    a {
+                        color: #040406;
+                        font-size: 18px;
+                        font-weight: 400;
+                        transition: all linear .3s;
+    
+                        &:hover {
+                            color: #F67280;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .menu_right {
+            ul {
+                display: flex;
+    
+                li {
+                    a {
+                        // padding: 20px 0;
+                        margin-left: 20px;
+                        color: #333;
+                        font-size: 14px;
+                        font-weight: 400;
+                        font-family: 'Poppins', sans-serif;
+    
+                        &:hover {
+                            color: #F67280;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+
+/* =======******====== Mega menu css start ======******====== */

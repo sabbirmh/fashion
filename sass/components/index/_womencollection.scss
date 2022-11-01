@@ -1,0 +1,211 @@
+/* =======******====== women collection css start ======******====== */
+
+#women_collection {
+    padding: 20px 0 50px;
+
+    .container {
+
+        .head {
+            h3 {
+                color: #040406;
+                font-size: 25px;
+                font-weight: 700;
+                font-family: 'Playfair Display', serif;
+            }
+        }
+
+
+        .hover_image, .winter_hover_image, .lingerie_hover_img {
+            img {
+                &:nth-child(2) {
+                    display: none;
+                }
+
+            }
+
+            &:hover {
+                img {
+                    &:first-child {
+                        display: none;
+                    }
+                }
+
+                img {
+                    &:nth-child(2) {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+    
+
+        .more {
+            text-align: right;
+
+            a {
+                color: #040406;
+                font-size: 15px;
+                font-weight: 400;
+                font-family: 'Playfair Display', serif;
+                transition: all linear .3s;
+
+                &:hover {
+                    color: #F67280;
+                }
+            }
+        }
+
+        .sec_row {
+            margin-top: 20px;
+        }
+
+        .women_left_img {
+            position: relative;
+                .overley{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(4, 4, 6, 0.8);
+                    opacity: 1;
+                }
+
+            img {
+                height: 500px;
+            }
+
+            .collection_info {
+                
+                position: absolute;
+                left: 40px;
+                top: 10%;
+
+                h5 {
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-family: 'Playfair Display', serif;
+                }
+
+                h4 {
+                    color: #fff;
+                    font-size: 30px;
+                    font-weight: 900;
+                    font-family: 'Playfair Display', serif;
+                    margin-top: 10px;
+                }
+
+                p {
+                    color: #F67280;
+                    font-size: 18px;
+                    font-weight: 400;
+                    font-family: 'Playfair Display', serif;
+                    margin-top: 5px;
+                }
+
+                a {
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 700;
+                    font-family: 'Playfair Display', serif;
+                    margin-top: 30px;
+                    padding: 10px 20px;
+                    border: 2px solid #fff;
+                    transition: all linear .3s;
+
+                    &:hover {
+                        background: #fff;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+
+        
+
+
+        .women_feshion_image {
+            position: relative;
+            transition: all linear .3s;
+
+            .overley {
+                position: absolute;
+                opacity: 0;
+                right: 15px;
+                top: 20%;
+                visibility: hidden;
+                opacity: 0;
+
+                ul {
+
+                    li {
+                        margin: 6px 0;
+
+                        a {
+                            i {
+                                color: #F67280;
+                                transition: all linear .3S;
+
+                                &:hover {
+                                    color: #040406;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            &:hover {
+                .overley {
+                    visibility: visible;
+                    opacity: 1;
+
+                }
+            }
+
+
+            .image_info {
+                h5 {
+                    color: #040406;
+                    font-size: 16px;
+                    font-weight: 600;
+                    font-family: 'Playfair Display', serif;
+                }
+
+                ul {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 2px;
+
+                    li {
+                        margin: 0 3px;
+
+                        a {
+                            color: #F67280;
+                            font-size: 10px;
+                        }
+                    }
+                }
+
+                h6 {
+                    color: #040406;
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-family: 'Playfair Display', serif;
+                }
+            }
+        }
+
+        .col_break {
+            margin-top: 20px;
+        }
+    }
+}
+
+/* =======******====== women collection css start ======******====== */
